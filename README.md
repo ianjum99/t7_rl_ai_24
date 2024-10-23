@@ -1,10 +1,10 @@
-Tekken 7 Reinforcement Learning AI
+# Tekken 7 Reinforcement Learning AI
 
-This project implements a reinforcement learning (RL) agent to play Tekken 7 by interacting with the game environment, extracting game states (such as health bars and distances between players), and optimizing actions (punch, kick, block, etc.) using a PPO (Proximal Policy Optimization) algorithm. The project is built using both Python and C++ for performance optimizations, with deep learning models for health bar detection and RL agent policies.
-Project Structure
+This project implements a reinforcement learning (RL) agent to play **Tekken 7** by interacting with the game environment, extracting game states (such as health bars and distances between players), and optimizing actions (punch, kick, block, etc.) using a **PPO (Proximal Policy Optimization)** algorithm. The project is built using both **Python** and **C++** for performance optimizations, with deep learning models for health bar detection and RL agent policies.
 
-plaintext
+## Project Structure
 
+```plaintext
 tekken7_rl_ai/
 ├── data/                               # Dataset storage (screenshots, labels, etc.)
 │   ├── health_bar_dataset/             # Dataset for health bar CNN
@@ -187,8 +187,3 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 Acknowledgments
 
 This project was inspired by the integration of reinforcement learning into competitive video games. Special thanks to the PyTorch, OpenCV, and OpenAI Gym communities for providing the tools and libraries that made this possible.
-
-Feel free to adjust the content based on your actual project setup and features! Let me know if you need help with any other part of the project!
-
-
-
