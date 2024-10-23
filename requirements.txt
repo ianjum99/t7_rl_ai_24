@@ -1,0 +1,11 @@
+torch
+torchvision
+opencv-python
+numpy
+pandas
+gym
+pyautogui
+pytesseract
+Pillow
+pybind11
+
